@@ -157,6 +157,10 @@ INTRO SECTION
   font-size: 1.35rem;
 }
 
+.headshot {
+  border-radius: 50%;
+}
+
 .content {
   position: relative;
   width: 100%;
@@ -217,7 +221,7 @@ CONTACT SECTION
 }
 
 p.social {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 }
 
