@@ -275,6 +275,43 @@ footer {
   color: #eee;
 }
 
+p.social2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p.social2 a {
+  margin: 0 10px 0 0;
+  color: #fff;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  line-height: 38px;
+  font-size: 15px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  vertical-align: bottom;
+}
+
+p.social2 a i {
+  vertical-align: bottom;
+  line-height: 38px;
+}
+
+p.social2 a.github {
+  background-color: #666;
+}
+
+p.social2 a.linkedin {
+  background-color: #333;
+}
+
+p.social2 a.email {
+  background-color: #666;
+}
+
 /*
 
 =====================
