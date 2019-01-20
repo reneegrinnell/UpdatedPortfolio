@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Black And White Bootstrap Landing Page / Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <p class="italic">Hello there!</p>
+              <h1>Renée Grinnell, full-stack web developer at your service.</h1>
+              <p class="italic">Scroll down to learn more about me and my work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">About me</h2>
+            <p class="lead">Connecting people through tech.</p>
+            <p>I’m a full-stack web developer with a background in clinical psychology. Connection, collaboration, and creativity 
+              are all important to me; they drew me to study human behavior and helped me discover a passion for programming along 
+              the way. The intersection of these two areas of interest, psych and tech, is where my strength as a developer lies. 
+              My deep behavioral knowledge helps me conceptualize how people interact with each other and with technology. With this 
+              person-oriented mindset and my technical abilities, I love to create beautiful, meaningful applications that are equally 
+              intuitive to users and developers.</p>
+ 
+            <p>I’m always hungry to collaborate and stretch my skills. Do you have a project or position in mind for which I could be 
+              a good fit? Let’s connect!</p>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/rmgHeadshot.jpg" alt=""></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery section-inverse">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Portfolio</h2>
+                <p>Curious what I've been up to lately? Click an image below to get the goods on GitHub.</p>
+              </div>
+            </div>
+
+            <div class="row">
+            <div class="card col-md-4">
+                <a href="https://github.com/reneegrinnell/friendFinder" target="_blank">
+              <img class="card-img-top" src="img/portfolio-1.jpg"></a>
+                <p class="card-text"><b>Wizard Friend Finder</b><br>
+                  Full-stack Harry Potter matching app to help you find your wizard bff
+                </p>
+              </a>
+            </div>
+
+            <div class="card col-md-4">
+                <a href="https://github.com/reneegrinnell/GroupProject1-JAMR" target="_blank">
+                <img class="card-img-top" src="img/portfolio-2.jpg"></a>
+                  <p class="card-text"><b>JAMR</b><br>Tone.js and Firebase collaborative keyboard of win & awesome</p>
+              </div>
+
+              <div class="card col-md-4">
+                  <a href="https://github.com/reneegrinnell/BamazonStorefront" target="_blank">
+                  <img class="card-img-top" src="img/portfolio-3.jpg"> </a>
+                    <p class="card-text"><b>Bamazon Storefront</b><br>Node CLI "store" of fabulous Star Trek Voyager goodies with MySQL backend</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-md-4">
+                    <a href="https://github.com/reneegrinnell/GifTastic" target="_blank">
+                  <img class="card-img-top" src="img/portfolio-4.jpg"></a>
+                    <p class="card-text"><b>GifTastic</b><br>Dynamically populates with user-selected Ron Swanson-related gifs from GIPHY's API
+                    </p>
+                  </a>
+                </div>
+    
+                <div class="card col-md-4">
+                    <a href="https://github.com/reneegrinnell/BobsBurgerLogger" target="_blank">
+                    <img class="card-img-top" src="img/portfolio-5.jpg"></a>
+                      <p class="card-text"><b>Bob's Burger Logger</b><br>Burger logging application with MySQL, Node, Express, Handlebars and a homemade ORM.</p>
+                  </div>
+    
+                  <div class="card col-md-4">
+                      <a href="https://github.com/reneegrinnell/Crystal-Collector" target="_blank">
+                      <img class="card-img-top" src="img/portfolio-6.jpg"> </a>
+                        <p class="card-text"><b>Crystal Collector</b><br>Blingy, interactive jQuery guessing and memory game</p>
+                    </div>
+                  </div>
+                </div>
+
+<!--             
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-4.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-4.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-5.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-5.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-6.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-6.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+    <!-- text page-->
+    <!-- <section id="text" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Text page</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+                <p>Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other. </p>
+              </div>
+              <div class="col-md-6">
+                <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed. </p>
+                <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted disposing engrossed. Tall snug do of till on easy. Form not calm new fail. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- text page end-->
+    <!-- contact-->
+    <section id="contact" style="background-color: #fff;" class="text-page"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Connect with Me</h2>
+            <div class="row">
+              <div class="col-lg-6">
+                <form id="contact-form" method="post" action="#" class="contact-form">
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="name">First Name *</label>
+                          <input type="text" name="name" placeholder="Enter your first name" required="required" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="surname">Last Name *</label>
+                          <input type="text" name="surname" placeholder="Enter your last name" required="required" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="surname">Email *</label>
+                      <input type="email" name="email" placeholder="Enter your email" required="required" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="surname">Your message *</label>
+                      <textarea rows="4" name="message" placeholder="Dear Renée..." required="required" class="form-control"></textarea>
+                    </div>
+                    <div class="text-center">
+                      <input type="submit" name="name" value="Send message" class="btn btn-outline-primary btn-block">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6">
+                <p><a href="http://www.catipsum.com/index.php">Cat ipsum</a> dolor sit amet, claw drapes somehow manage to catch a bird but have no idea what to do next, so play with it until it dies of shock. Caticus cuteicus headbutt owner's knee so vommit food and eat it again but sit in window and stare oooh, a bird, yum for weigh eight pounds but take up a full-size bed for jump five feet high and sideways when a shadow moves.</p>
+                <p></p>Licks paws destroy couch bite off human's toes and intrigued by the shower chase the pig around the house. Munch on tasty moths knock over christmas tree and kick up litter. Lick butt and make a weird face meowzer meow to be let out and cat mojo yet disappear for four days and return home with an expensive injury; bite the vet bathe private parts with tongue then lick owner's face.</p>
+                <p class="social">
+                  <a href="https://github.com/reneegrinnell" title="GitHub" class="github"><i class="fa fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/ren%C3%A9e-grinnell-ms-209211132/" title="LinkedIn" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="mailto:renee.grinnell@gmail.com" title="Email" class="email"><i class="fa fa-envelope"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+            <div class="col-md-12">
+          <p class="credit mb-md-0 text-center">&copy;2018 Renée Grinnell</p>
+          
+            <p class="credit mb-md-0 text-center text-md-center">Template by <a href="http://bootstrapious.com/landing-pages">Bootstrapious &mdash; Bootstrap Landing Pages</a></p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
